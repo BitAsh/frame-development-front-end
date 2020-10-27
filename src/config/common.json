@@ -1,5 +1,11 @@
 {
   "APP_NAME": "substrate-front-end-tutorial",
   "DEVELOPMENT_KEYRING": true,
-  "RPC": {}
+  "RPC": {},
+  "CUSTOM_TYPES": {
+    "Accumulation": {
+      "currentCount": "u128",
+      "incrementPerCall": "u128"
+    }
+  }
 }
